@@ -48,7 +48,7 @@
         if (url && url.length > 1) {
             url = decodeURIComponent(url[1]);
         } else {
-            url = "{{{hapiSwagger.jsonPath}}}";
+            url = "{{{hapiSwagger.basePath}}}{{{hapiSwagger.jsonPath}}}";
         }
         ///url = 'http://localhost:3000/temp.json';
 
